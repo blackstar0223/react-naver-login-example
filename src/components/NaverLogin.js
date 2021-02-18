@@ -10,7 +10,7 @@ const NaverLogin = () => {
       loginButton: {
         color: 'white',
         type: 1,
-        height: 50,
+        height: 55,
       },
     });
     naverLogin.init();
@@ -23,7 +23,9 @@ const NaverLogin = () => {
   return (
     <div>
       <h1>네아로</h1>
-      <div id="naverIdLogin" />
+      <div className="naverIdLoginButtonContainer">
+        <div id="naverIdLogin" />
+      </div>
     </div>
   );
 };
